@@ -9,8 +9,8 @@ import {
 } from "@material-ui/core";
 
 import useStyles from "./styles.js";
-import Form from "./Form/Form.jsx";
-import List from "./List/List.jsx";
+import Form from "./Form/Form.js";
+import List from "./List/List.js";
 
 const Main = () => {
   const classes = useStyles();
